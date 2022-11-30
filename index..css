@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;1,100&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+a{
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --background-color: rgb(96, 96, 255);
+    ;
+    --button-color:
+}
+
+.container {}
+
+.header {
+    background-color: rgb(81, 79, 79);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-left {
+    background-color: rgb(96, 96, 255);
+    ;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    border-bottom-right-radius: 700px;
+}
+
+.content h1 {
+    padding-top: 80px;
+    color: white;
+    font-size: 50px;
+
+}
+
+.content p {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar {
+    padding: 20px 0px;
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+}
+
+.navbar ul li {
+    list-style: none;
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.btn a {
+    background-color: rgb(88, 88, 249);
+    color: white;
+    text-transform: capitalize;
+    padding: 8px 10px;
+    border: 0;
+
+    outline: 0;
+    border-radius: 3px;
+}
+
+.btn a:hover {
+    background-color: rgb(158, 158, 247);
+
+}
+
+.header-right {
+    text-align: right;
+    margin-right: 10%;
+    left: 0;
+
+    top: 0;
+
+}
+
+.navbar2 {
+    padding-top: 100px;
+}
+
+.navbar2 ul li {
+    position: relative;
+    list-style: none;
+    padding: 20px 0px;
+
+}
+
+.navbar2 ul li a {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.navbar2 ul li a:hover {
+    margin-right: 30px;
+    border: 1px solid blue;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+/* our services  */
+.services {
+    align-items: center;
+    height: 100vh;
+}
+
+.heading h1 {
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.box {
+
+    width: 250px;
+    text-align: center;
+    height: 240px;
+    text-transform: capitalize;
+    padding: 20px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 10px rgb(189, 189, 189);
+
+}
+
+.box:hover {
+    background-color: rgb(158, 158, 247);
+    transition: 0.6s;
+    padding-top:30px;
+}
+
+.box img {
+    width: 100px;
+}
+
+.container2 {
+    padding: 0px 60px;
+}
+
+/* women section  */
+.women {
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(96, 96, 255);
+    ;
+}
+
+.heading2 h1 {
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+.box2 img {
+    width: 420px;
+    text-align: center;
+    padding: 0px 30px;
+    height:450px;
+    border-radius: 4px;
+    object-fit: cover;
+    padding-left: 120px;
+}
+.box2 img:hover{
+ padding-top: 30px;
+
+    transition: 0.6s;
+}
+.flex-box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+/* login form ----------------------------------------------------- */
+.login {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+}
+
+.login-img img {
+    width: 550px;
+    padding-left: 40px;
+}
+
+.login-right {
+    padding-right: 280px;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+input {
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: 0;
+    width: 130%;
+margin: 15px 0px ;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+.btn2{
+
+    background-color: rgb(88, 88, 249);
+    color: white;
+    text-transform: capitalize;
+    padding: 8px 10px;
+    border: 0;
+    margin-top: 20px;
+    width: 130%;
+    outline: 0;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+.btn2:hover{
+    background-color: rgb(158, 158, 247);
+    transition: 0.6s;
+}
+
+form {
+    padding: 50px 0px;
+}
+
+.sign-up p {
+    margin-top: 20px;
+    text-align: center;
+}
+/* men section  */
+.men {
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(96, 96, 255);
+}
+
+/* sports shoes */
+.sports{
+    height: 100vh;
+    width: 100%;
+    
+}
+.box4 img{
+    width: 300px;
+    
+}
+.box4 p , h3{
+    text-align: center;
+
+}
+
+ /* footer section  */
+ .footer{
+    padding:20px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+ }
+
